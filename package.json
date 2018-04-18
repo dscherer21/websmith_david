@@ -1,0 +1,28 @@
+{
+  "name": "websmith_david",
+  "version": "1.0.0",
+  "description": "Deployed Portfolio page",
+  "main": "server.js",
+  "scripts": {
+    "test": "node server.js",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dscherer21/websmith_david.git"
+  },
+  "keywords": [
+    "ReactJS",
+    "Fullstack",
+    "Portfolio\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D",
+    "\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C",
+    "\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C",
+    "NodeJS"
+  ],
+  "author": "dscherer21",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dscherer21/websmith_david/issues"
+  },
+  "homepage": "https://github.com/dscherer21/websmith_david#readme"
+}
