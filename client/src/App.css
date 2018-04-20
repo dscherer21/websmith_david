@@ -1,3 +1,11 @@
 * {
   box-sizing: border-box;
 }
+
+body {
+  font-family: 'Cherry Swash', cursive;
+}
+
+.macondoFont {
+  font-family: 'Macondo', cursive;
+}
