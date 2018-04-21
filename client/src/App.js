@@ -11,21 +11,20 @@ class App extends Component {
             <div className='row'>
               <div className='col-xs-6'>
                 <div className='col-xs-6'>
-                  <img className='img img-thumbnail logo' src='./images/websitelogo.png' alt='Website Logo'/>
+                  <Link to='/'>
+                    <img className='img img-thumbnail logo' src='./images/websitelogo.png' alt='Website Logo'/>
+                  </Link>
                 </div>
                 <div className='col-xs-6'>
-                  <h1><span className='macondoFont'>Websmith David</span></h1>
+                  <h1><span className='macondoFont metallicLettering'>Websmith David</span></h1>
                 </div>
               </div>
               <div className='col-xs-6'>
                 <nav>
-                  <h3><span className='macondoFont'>
-                    <Link to='#'>Front Counter</Link> | <Link to='#'>Forge/Wares</Link> | <Link to='#'>Messenger Raven</Link>
-                  </span></h3>
+                  <h2><span className='macondoFont metallicLettering'>
+                    <Link to='/'>Store Counter</Link> | <Link to='#'>Forge/Wares</Link> | <Link to='#'>Messenger Raven</Link>
+                  </span></h2>
                 </nav>
-              </div>
-              <div className='row'>
-
               </div>
             </div>
           </header>
@@ -33,14 +32,14 @@ class App extends Component {
           <main className='container'>
             <div className='row'>
               <div clasName='col-xs-6'>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                <p><quote>"As a highly skilled Websmith, I shall craft you a fine webpage made of 'Rare ReactJS Ore', slowly molded together with fine strokes of my 'Mighty NPM Hammer' on the 'Anvil of HTML!'"  -Websmith David- </quote></p>
+                <p className='metallicLettering'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <p className='metallicLettering'><quote>"As a highly skilled Websmith, I shall craft you a fine webpage made of 'Rare ReactJS Ore', slowly molded together with fine strokes of my 'Mighty NPM Hammer' upon the 'Anvil of HTML!'"  -Websmith David- </quote></p>
               </div>
               <div clasName='col-xs-6'>
                 <h2>Ye Olde Websmith</h2>
-                <img src='./images/glitterbeard.jpg' alt='Glitter Beard Portrait'/>
+                <img id='portrait' src='./images/glitterbeard.jpg' alt='Glitter Beard Portrait'/>
                 <h2>Crest of the Websmith Clan</h2>
-                <img src='./images/websitelogo.png' alt='Website Logo'/>
+                <img id='crest' src='./images/websitelogo.png' alt='Website Logo'/>
               </div>
             </div>
             <hr/>
