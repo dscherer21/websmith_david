@@ -14,7 +14,7 @@ app.use(express.static("client/build"));
 
 //var MONGODB_URI = 'DB_PASS';
 // Set up promises with mongoose
-mongoose.Promise = global.Promise;
+/*mongoose.Promise = global.Promise;
 // Connect to the Mongo DB
 mongoose.connect(
   process.env.MONGODB_URI || "mongodb://localhost/",
@@ -30,7 +30,7 @@ db.on("error", function (error) {
 // Once logged in to the db through mongoose, log a success message
 db.once("open", function () {
   console.log("Mongoose connection successful.");
-});
+});*/
 
 app.get('/', function(req, res) {
   res.json(JSON.parse(response.body));
@@ -47,5 +47,5 @@ router.use(function (req, res) {
 
 // Start the API server
 app.listen(PORT, function() {
-  console.log(`🌎  ==> API Server now listening on PORT ${PORT}!`);
+  console.log(`🌎  ==> Server now listening on PORT ${PORT}!`);
 });
