@@ -44,7 +44,7 @@ class App extends Component {
                 <h2 className='macondoFont metallicLettering'>Crest of the Websmith Clan</h2>
                 <img id='crest' src='./images/websitelogo.png' alt='Website Logo'/>
               </div>
-            </div
+            </div>
             <div className='row'>
               <div className='col-xs-12 metallicLettering panelPlate'>
                 <h2 className='macondoFont'>About David</h2>
