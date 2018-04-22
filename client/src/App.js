@@ -46,7 +46,7 @@ class App extends Component {
               </div>
             </div>
             <div className='row'>
-              <div className='col-xs-12 metallicLettering panelPlate'>
+              <div className='col-xs-11 metallicLettering panelPlate'>
                 <h2 className='macondoFont'>About David</h2>
                 <p>blah blah blah blah blah blah blah</p>
               </div>
