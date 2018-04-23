@@ -4,7 +4,7 @@
 
 body {
   font-family: 'Cherry Swash', cursive;
-  background-color: rgba(52, 190, 197, 1);
+  background-color: rgba(15,245,245,1);
   background-image: url('./images/oldpaperbackground.jpg');
 }
 
@@ -64,7 +64,7 @@ p {
 }
 
 .metallicLettering {
-  color: rgba(52,190,197,1);
+  color: rgba(15,245,245,1);
   text-shadow: 1px 1px 1px black;
 }
 
@@ -89,7 +89,7 @@ p {
 }
 
 #portrait {
-  border: 5px solid rgba(52, 190, 197, 1);
+  border: 5px solid rgba(15,245,245,1);
   border-radius: 150px;
   width: 70%;
   height: auto;

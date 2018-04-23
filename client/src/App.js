@@ -42,13 +42,17 @@ class App extends Component {
                 <h2 className='macondoFont metallicLettering'>Ye Olde Websmith</h2>
                 <img id='portrait' src='./images/glitterbeard1.jpg' alt='Glitter Beard Portrait'/>
                 <h2 className='macondoFont metallicLettering'>Crest of the Websmith Clan</h2>
-                <img id='crest' src='./images/websitelogo.png' alt='Website Logo'/>
+                <Link to='https://docs.google.com/document/d/1P2B_Ai1G-giXcUDQrk1ujzfhLNeVXfUroGpCHQg7g1M/edit?usp=sharing' target='_blank'>
+                  <img id='crest' src='./images/websitelogo.png' alt='Website Logo'/>
+                </Link>
+                <p className='metallicLettering'>If you click on the Crest above, Davids Resume will magicly materialize before your eyes!</p>
               </div>
             </div>
             <div className='row'>
               <div className='col-xs-11 metallicLettering panelPlate'>
                 <h2 className='macondoFont'>About David</h2>
-                <p>blah blah blah blah blah blah blah</p>
+                <p>David is 34 years old, and has been married for 4 years. When he is not forging the deadliest of Webpages, David likes to spend his leisure time watching movies (he prefers action/adventure, sci-fi, and fantasy), TV shows (he is into anime, and enjoys good comedies like Scrubs, Family Guy, and How I Met Your Mother), video games (he used to play World of Warcraft, loves the Legend of Zelda series, and other games as well.), Trading Card Games(primarily Magic: The Gathering), building gaming rigs, and spending time with his wife. David has a wide variety of musical tastes, ranging from rock and hiphop to country and classical. David is very easy-going and has a goofy sense of humor. David will do his best to meet your Websmithing needs!</p>
+                <p>If You would like to view a more traditional webpage layout, please click ==> <Link to='https://dscherer21.github.io/bootstrap-portfolio' target='_blank'><strong>HERE</strong></Link>.</p>
               </div>
             </div>
             <hr/>
