@@ -81,7 +81,7 @@ p {
   font-family: 'Macondo', cursive;
 }
 
-#quote {
+.quote {
   background-color: rgba(231, 226, 71, 1);
   padding: 10px;
   border: 5px inset silver;
