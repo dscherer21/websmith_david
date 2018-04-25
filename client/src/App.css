@@ -5,16 +5,8 @@
 body {
   font-family: 'Cherry Swash', cursive;
   background-color: rgba(15,245,245,1);
-  background-image: url('./images/oldpaperbackground.jpg');
 }
 
-header {
-  background-color: rgba(70, 79, 81, 1);
-  background-image: linear-gradient(45deg, rgba(70,79,81,1), rgba(250,250,250,.4), rgba(70,79,81,1));
-  color: white;
-  padding: 10px;
-  box-shadow: 5px 5px 5px rgba(0,0,0,.7);
-}
 
 a {
   color: inherit;
@@ -22,6 +14,10 @@ a {
 
 a:hover {
   color: rgba(231, 226, 71, 1);
+}
+
+hr {
+  opacity: 0;
 }
 
 h1 {
@@ -33,21 +29,8 @@ h2 {
 }
 
 main {
-  /*background-image: url('./images/oldpaperbackground.jpg');*/
-  background-size: cover;
   padding: 10px;
   color: white;
-}
-
-footer {
-  color: rgba(250, 250, 250, .7);
-  background-color: rgba(70, 79, 81, 1);
-  background-image: linear-gradient(45deg, rgba(70,79,81,1), rgba(250,250,250,.4), rgba(70,79,81,1));
-  padding: 10px;
-}
-
-hr {
-  opacity: 0;
 }
 
 p {
@@ -65,12 +48,7 @@ p {
 
 .metallicLettering {
   color: rgba(15,245,245,1);
-  text-shadow: 1px 1px 1px black;
-}
-
-.logo {
-  width: 30%;
-  height: auto;
+  text-shadow: 3px 2px 1px black;
 }
 
 .container {
@@ -86,19 +64,4 @@ p {
   padding: 10px;
   border: 5px inset silver;
   background-image: linear-gradient(45deg, rgba(231,226,71,1), rgba(250,250,250,.4), rgba(231,226,71,1));
-}
-
-#portrait {
-  border: 5px solid rgba(15,245,245,1);
-  border-radius: 150px;
-  width: 70%;
-  height: auto;
-  box-shadow: 12px 12px 12px rgba(0,0,0,.5);
-}
-
-#crest {
-  border-radius: 10px;
-  width: 40%;
-  height: auto;
-  box-shadow: 5px 5px 12px rgba(0,0,0,.5);
 }

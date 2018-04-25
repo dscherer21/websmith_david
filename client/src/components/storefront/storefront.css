@@ -1,0 +1,18 @@
+body {
+  background-image: url('./../../images/oldpaperbackground.jpg');
+}
+
+#portrait {
+  border: 5px solid rgba(15,245,245,1);
+  border-radius: 150px;
+  width: 70%;
+  height: auto;
+  box-shadow: 12px 12px 12px rgba(0,0,0,.5);
+}
+
+#crest {
+  border-radius: 10px;
+  width: 40%;
+  height: auto;
+  box-shadow: 5px 5px 12px rgba(0,0,0,.5);
+}
