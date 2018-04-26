@@ -4,6 +4,7 @@ import './App.css';
 import Header from './components/header';
 import Footer from './components/footer';
 import StoreFront from './components/storefront';
+import Forge from './components/forge';
 
 class App extends Component {
   render() {
@@ -13,6 +14,7 @@ class App extends Component {
           <Header/>
           <Switch>
             <Route exact path='/' component={StoreFront}/>
+            <Route path='/forge' component={Forge}/>
           </Switch>
           <Footer/>
         </div>
