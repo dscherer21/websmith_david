@@ -24,7 +24,7 @@ const StoreFront = () => {
               <Link to='https://drive.google.com/file/d/1S75LHS0uNnNDV2-0p3zjJEBuayKEKqYz/view?usp=sharing' target='_blank'>
                 <img id='crest' src='./images/websitelogo.png' alt='Website Logo'/>
               </Link>
-              <p className='metallicLettering'>If you click on the Crest above, Davids Resume will magicly materialize before your eyes!</p>
+              <p className='metallicLettering'>If you click on the Crest above, David{"'"}s Resume will magicly materialize before your eyes!</p>
             </div>
           </div>
         </div>

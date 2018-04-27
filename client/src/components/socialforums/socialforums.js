@@ -8,7 +8,7 @@ const SocialForums = () => {
           {/*Social Media Links*/}
           <div className='col-xs-12'>
             <div className='panelPlate'>
-              <h2 className='metallicLettering macondoFont'>Davids Social Forums</h2>
+              <h2 className='metallicLettering macondoFont'>David{"'"}s Social Forums</h2>
               <div className='row'>
                 {/*Github*/}
                 <div className='col-xs-3'>
