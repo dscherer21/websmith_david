@@ -15,9 +15,18 @@ const Forge = () => {
           </div>
         </div>
         <div className='row'>
-          {/*<div className='col-xs-12'>*/}
-            <div className='panelPlate metallicLettering'>
+          <div className='col-xs-12'>
+            <div className='clearfix panelPlate metallicLettering'>
               {/*Portfolio Works*/}
+              <div className="col-xs-12 col-sm-6 col-md-4">
+                {/*NYT Article Search*/}
+                <Link to="https://nyt-mern-stack.herokuapp.com/" target="_blank">
+                  <div className='flip'>
+                    <img className='img img-thumbnail' src="./images/nytsearch.png" alt="NYT Article Search"/>
+                    <h3 className="appLabels">Fullstack NYT Article Search</h3>
+                  </div>
+                </Link>
+              </div>
               <div className="col-xs-12 col-sm-6 col-md-4">
                 {/*Hangman Game*/}
                 <Link to="https://dscherer21.github.io/Hangman-Game/" target="_blank">
@@ -83,7 +92,7 @@ const Forge = () => {
               </div>
             </div>
           </div>
-        {/*</div>*/}
+        </div>
         <SocialForums/>
         <hr/>
         <hr/>
