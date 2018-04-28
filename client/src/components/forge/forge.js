@@ -24,8 +24,35 @@ const Forge = () => {
                 {/*NYT Article Search*/}
                 <Link to="https://nyt-mern-stack.herokuapp.com/" target="_blank">
                   <div className='flip'>
-                    <img className='img img-thumbnail' src="./images/nytsearch.png" alt="NYT Article Search"/>
-                    <h3 className="appLabels">Fullstack NYT Article Search</h3>
+                    <img className='img img-thumbnail' src="./images/nytscreenshot.png" alt="NYT Article Search"/>
+                    <h3 className="appLabels">ReactJS NYT Search</h3>
+                  </div>
+                </Link>
+              </div>
+              <div className='col-xs-12 col-sm-6 col-md-4'>
+                {/*DateNight*/}
+                <Link to="https://dscherer21.github.io/datenight" target='_blank'>
+                  <div className='flip'>
+                    <img className='img img-thumbnail' src="./images/app-image.png" alt="DateNight"/>
+                    <h3 className="appLabels">DateNight</h3>
+                  </div>
+                </Link>
+              </div>
+              <div className='col-xs-12 col-sm-6 col-md-4'>
+                {/*Bootstrap Portfolio*/}
+                <Link to="https://dscherer21.github.io/bootstrap-portfolio" target='_blank'>
+                  <div className='flip'>
+                    <img className='img img-thumbnail' src="./images/bootstrapportfolioscreenshot.png" alt="Bootstrap Portfolio Screenshot"/>
+                    <h3 className="appLabels">Bootstrap Portfolio</h3>
+                  </div>
+                </Link>
+              </div>
+              <div className='col-xs-12 col-sm-6 col-md-4'>
+                {/*DevTech Scraper*/}
+                <Link to="https://devtechscraper.herokuapp.com/" target='_blank'>
+                  <div className='flip'>
+                    <img className='img img-thumbnail' src="./images/devtechscreenshot.png" alt="DevTech Scraper Screenshot"/>
+                    <h3 className="appLabels">DevTech Scraper</h3>
                   </div>
                 </Link>
               </div>
@@ -66,15 +93,6 @@ const Forge = () => {
                 </Link>
               </div>
               <div className='col-xs-12 col-sm-6 col-md-4'>
-                {/*DateNight*/}
-                <Link to="https://dscherer21.github.io/datenight" target='_blank'>
-                  <div className='flip'>
-                    <img className='img img-thumbnail' src="./images/app-image.png" alt="DateNight"/>
-                    <h3 className="appLabels">DateNight</h3>
-                  </div>
-                </Link>
-              </div>
-              <div className='col-xs-12 col-sm-6 col-md-4'>
                 {/*Bamazon.js*/}
                 <Link to="https://github.com/dscherer21/bamazon" target='_blank'>
                   <div className='flip'>
@@ -87,7 +105,7 @@ const Forge = () => {
                 {/*Heroes Friend Finder*/}
                 <Link to="https://heroesfriendfinder.herokuapp.com/" target='_blank'>
                   <div className='flip'>
-                    <img className='img img-thumbnail' src="./images/heroes1.jpg" alt="Heroes Friend Finder Screenshot"/>
+                    <img className='img img-thumbnail' src="./images/friendfinderscreenshot.png" alt="Heroes Friend Finder Screenshot"/>
                     <h3 className="appLabels">Heroes Friend Finder</h3>
                   </div>
                 </Link>
