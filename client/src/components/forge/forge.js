@@ -10,6 +10,7 @@ const Forge = () => {
           <div className='col-xs-12'>
             <div className='panelPlate metallicLettering'>
               <h2 className='macondoFont'>The Forge</h2>
+              <img src='./images/winterdwarfblacksmith.jpg' alt='Dwarf Blacksmith' className='img img-thumbnail'/>
               <p>Welcome to the forge, Gentle Folk! Here is where David hones his skills and shows off his wares. Feel free to test out any Webpage you like by clicking on the Image. Be wary that you don{"'"}t harm the other guests with it{"'"}s well sharpened edges.</p>
             </div>
           </div>
@@ -17,6 +18,7 @@ const Forge = () => {
         <div className='row'>
           <div className='col-xs-12'>
             <div className='clearfix panelPlate metallicLettering'>
+              <h2 className='macondoFont'>David{"'"}s Wares</h2>
               {/*Portfolio Works*/}
               <div className="col-xs-12 col-sm-6 col-md-4">
                 {/*NYT Article Search*/}
