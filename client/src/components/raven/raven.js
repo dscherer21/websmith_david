@@ -39,12 +39,12 @@ const Raven = () => {
                   <label>Message:</label>
                 </div>
                 <div className='col-xs-12'>
-                  <textarea placeholder='Hello!'/>
+                  <textarea rows='8' placeholder='Hello!'/>
                 </div>
               </div>
               <div className='row'>
                 <div className='col-xs-12'>
-                  <button className='btn btn-primary metallicLettering quote'>Send</button>
+                  <button className='btn btn-primary metallicLettering rainbow'>Send</button>
                 </div>
               </div>
             </form>
