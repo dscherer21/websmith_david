@@ -1,0 +1,20 @@
+label {
+  font-size: 26px;
+}
+
+input {
+  font-size: 22px;
+  width: 30%;
+  color: black;
+}
+
+textarea {
+  font-size: 22px;
+  width: 30%;
+  height: auto;
+  color: black;
+}
+
+.btn-primary {
+  font-size: 32px;
+}

@@ -11,6 +11,12 @@ header {
   height: auto;
 }
 
+@media (max-width: 1439px) {
+	.logo {
+    width: 45%;
+  }
+}
+
 @media (max-width: 1024px) {
 	.logo {
     width: 60%;

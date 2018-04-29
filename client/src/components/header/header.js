@@ -19,7 +19,7 @@ const Header = () => {
           <div className='col-md-6 col-xs-12'>
             <nav>
               <h2><span className='macondoFont metallicLettering'>
-                <Link to='/'>Store Front</Link> | <Link to='/forge'>Forge/Wares</Link> | <Link to='#'>Messenger Raven</Link>
+                <Link to='/'>Store Front</Link> | <Link to='/forge'>Forge/Wares</Link> | <Link to='/raven'>Messenger Raven</Link>
               </span></h2>
             </nav>
           </div>

@@ -5,6 +5,7 @@ import Header from './components/header';
 import Footer from './components/footer';
 import StoreFront from './components/storefront';
 import Forge from './components/forge';
+import Raven from './components/raven';
 
 class App extends Component {
   render() {
@@ -15,6 +16,7 @@ class App extends Component {
           <Switch>
             <Route exact path='/' component={StoreFront}/>
             <Route path='/forge' component={Forge}/>
+            <Route path='/raven' component={Raven}/>
           </Switch>
           <Footer/>
         </div>
