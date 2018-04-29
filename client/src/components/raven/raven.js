@@ -7,17 +7,17 @@ const Raven = () => {
     return(
       <main className='container'>
         <div className='row'>
-          <div className='col-xs-12'>
+          <div className='col-xs-12 col-md-6'>
             <div className='panelPlate metallicLettering'>
               <h2 className='macondoFont'>Messenger Raven</h2>
               <img src='./images/messengerraven.jpg' className='img img-thumbnail' alt='Messenger Raven'/>
               <p>Hark, Heroes! A Messenger Raven approacheth! If you need to relay a message to David, here is the place to do so.</p>
             </div>
           </div>
-        </div>
-        <div className='row'>
-          <div className='col-xs-12'>
-            <form className='container panelPlate metallicLettering'>
+        {/*</div>*/}
+        {/*<div className='row'>*/}
+          <div className='col-xs-12 col-md-6'>
+            <form className='panelPlate metallicLettering'>
               <div className='row'>
                 <div className='col-xs-12'>
                   <label>Name:</label>
