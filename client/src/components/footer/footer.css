@@ -5,10 +5,15 @@ footer {
   padding: 10px;
 }
 
-iframe {
+/*iframe {
   width: 60%;
   height: auto;
-  autoplay: autoplay;
+}*/
+
+ReactPlayer {
+  width: 60%;
+  height: auto;
+  left: 20%;
 }
 
 @media (max-width: 414px) {
