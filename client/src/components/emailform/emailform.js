@@ -28,7 +28,7 @@ class EmailForm extends React.Component {
       message
     })
 
-    alert('Caw Caw! You Message is on it\'s way!')
+    alert('Caw Caw! Your Message is on it\'s way!')
     document.getElementById('form').reset();
 
   }
