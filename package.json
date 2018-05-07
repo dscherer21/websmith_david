@@ -1,0 +1,37 @@
+{
+  "name": "websmith_david",
+  "version": "1.0.0",
+  "description": "Deployed Portfolio page",
+  "main": "server.js",
+  "scripts": {
+    "test": "node server.js",
+    "start": "node server.js",
+    "server": "nodemon server.js",
+    "client": "npm run start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dscherer21/websmith_david.git"
+  },
+  "keywords": [
+    "ReactJS",
+    "Fullstack",
+    "Portfolio",
+    "NodeJS"
+  ],
+  "author": "dscherer21",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dscherer21/websmith_david/issues"
+  },
+  "homepage": "https://github.com/dscherer21/websmith_david#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "concurrently": "^3.5.1",
+    "dotenv": "^5.0.1",
+    "express": "^4.16.3",
+    "nodemailer": "^4.6.4",
+    "nodemon": "^1.17.4"
+  }
+}

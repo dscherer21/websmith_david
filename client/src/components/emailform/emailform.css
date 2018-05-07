@@ -1,0 +1,33 @@
+input {
+  width: 60%;
+}
+
+textarea {
+  width: 60%;
+}
+
+button {
+  width: 50%;
+  height: 10%;
+  border: 15px dotted silver;
+}
+
+.rainbow {
+  background: linear-gradient(270deg, #0f8a6b, #28a70c, #cad70d, #d73b0d, #d70dc6);
+  background-size: 1000% 1000%;
+  animation: AnimationName 11s ease infinite;
+  width: 50%;
+  border: 5px dashed rgba(70,79,81,1);
+}
+
+@keyframes AnimationName {
+  0% {
+      background-position: 96% 0%
+  }
+  50% {
+      background-position: 5% 100%
+  }
+  100% {
+      background-position: 96% 0%
+  }
+}

@@ -1,0 +1,25 @@
+body {
+  background-image: url('./../../images/oldpaperbackground.jpg');
+}
+
+.flip {
+  box-shadow: 12px 32px 12px 1px rgba(0,0,0,.2);
+  transform-style: preserve-3d;
+	transition: all 1s ease;
+  margin: 7% 0;
+}
+
+.flip:hover {
+	transform: rotateY( 180deg );
+}
+
+.appLabels {
+  margin-top: -15%;
+	padding-bottom: 2%;
+  position: relative;
+  background-color: rgba(231,226,71,1);
+}
+
+#dwarf {
+  width: 80%;
+}
