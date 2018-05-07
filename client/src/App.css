@@ -47,8 +47,13 @@ p {
 }
 
 .metallicLettering {
-  color: rgba(15,245,245,1);
+  color: ivory;
   text-shadow: 3px 2px 1px black;
+}
+
+.placardText {
+  color: rgba(70,79,81,1);
+  text-shadow: 2px 1px 1px black;
 }
 
 .container {

@@ -17,8 +17,8 @@ const Forge = () => {
         </div>
         <div className='row'>
           <div className='col-xs-12'>
-            <div className='clearfix panelPlate metallicLettering'>
-              <h2 className='macondoFont'>David{"'"}s Wares</h2>
+            <div className='clearfix panelPlate placardText'>
+              <h2 className='macondoFont metallicLettering'>David{"'"}s Wares</h2>
               {/*Portfolio Works*/}
               <div className="col-xs-12 col-sm-6 col-md-4">
                 {/*NYT Article Search*/}
