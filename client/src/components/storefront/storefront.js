@@ -21,7 +21,7 @@ const StoreFront = () => {
               <h2 className='macondoFont metallicLettering'>Ye Olde Websmith</h2>
               <img id='portrait' src='./images/glitterbeard1.jpg' alt='Glitter Beard Portrait'/>
               <h2 className='macondoFont metallicLettering'>Crest of the Websmith Clan</h2>
-              <Link to='https://drive.google.com/file/d/1S75LHS0uNnNDV2-0p3zjJEBuayKEKqYz/view?usp=sharing' target='_blank'>
+              <Link to='https://drive.google.com/file/d/1BChhyb4t7m37kNIIQwojhBh9oA081TgY/view?usp=sharing' target='_blank'>
                 <img id='crest' src='./images/websitelogo.png' alt='Website Logo'/>
               </Link>
               <p className='metallicLettering'>If you click on the Crest above, David{"'"}s Resume will magicly materialize before your eyes!</p>
