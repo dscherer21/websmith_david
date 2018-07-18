@@ -66,6 +66,12 @@ class EmailForm extends React.Component {
             </div>
           </div>
           <div className='row'>
+            {/*reCAPTCHA*/}
+            <div className='col-xs-12 text-align-right'>
+              <div className="g-recaptcha" data-sitekey="6Lck5GQUAAAAANI8ocNz9ps76VvuOj1CxX9Sm5Yg"></div>
+            </div>
+          </div>
+          <div className='row'>
             <div className='col-xs-12'>
               <button className='btn btn-primary metallicLettering rainbow' type='submit' value='submit'>Send</button>
             </div>
