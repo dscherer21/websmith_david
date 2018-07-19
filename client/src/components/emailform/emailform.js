@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import './emailform.css';
+import Recaptcha from 'react-recaptcha';
 import { Link } from "react-router-dom";
 import axios from 'axios'
 
@@ -9,11 +10,13 @@ class EmailForm extends React.Component {
     this.state = {
       name: '',
       email: '',
-      message: ''
+      message: '',
+      isVerified: false
     };
 
     this.handleSubmit = this.handleSubmit.bind(this);
     this.handleChange = this.handleChange.bind(this);
+    this.verifyCallback = this.verifyCallback.bind(this);
   }
 
 
@@ -21,16 +24,26 @@ class EmailForm extends React.Component {
     event.preventDefault();
 
     const {name, email, message} = this.state;
+    if (this.state.isVerified) {
+      axios.post('/send', {
+        name,
+        email,
+        message
+      })
 
-    axios.post('/send', {
-      name,
-      email,
-      message
-    })
+      alert('Caw Caw! Your Message is on its way!')
+      document.getElementById('form').reset();
+    } else {
+      alert('The Raven only responds to humans! Please verify that you are a human and not a SpamGollum!')
+    }
+  }
 
-    alert('Caw Caw! Your Message is on its way!')
-    document.getElementById('form').reset();
-
+  verifyCallback(response) {
+    if (response) {
+      this.setstate ({
+        isVerified: true
+      })
+    }
   }
 
   handleChange(event) {
@@ -68,7 +81,7 @@ class EmailForm extends React.Component {
           <div className='row'>
             {/*reCAPTCHA*/}
             <div className='col-xs-12 text-align-right'>
-              <div className="g-recaptcha" data-sitekey="6Lck5GQUAAAAANI8ocNz9ps76VvuOj1CxX9Sm5Yg"></div>
+              <div className="g-recaptcha" data-sitekey="6Lck5GQUAAAAANI8ocNz9ps76VvuOj1CxX9Sm5Yg" verifyCallback={this.verifyCallback}></div>
             </div>
           </div>
           <div className='row'>
