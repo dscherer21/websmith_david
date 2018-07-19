@@ -40,7 +40,7 @@ class EmailForm extends React.Component {
 
   verifyCallback(response) {
     if (response) {
-      this.setstate ({
+      this.setState ({
         isVerified: true
       })
     }
@@ -81,7 +81,11 @@ class EmailForm extends React.Component {
           <div className='row'>
             {/*reCAPTCHA*/}
             <div className='col-xs-12 text-align-right'>
-              <div className="g-recaptcha" data-sitekey="6Lck5GQUAAAAANI8ocNz9ps76VvuOj1CxX9Sm5Yg" verifyCallback={this.verifyCallback}></div>
+            <Recaptcha
+              sitekey="6Lck5GQUAAAAANI8ocNz9ps76VvuOj1CxX9Sm5Yg"
+              verifyCallback={this.verifyCallback}
+              render='explicit'
+              />
             </div>
           </div>
           <div className='row'>
