@@ -27,6 +27,7 @@
   },
   "homepage": "https://github.com/dscherer21/websmith_david#readme",
   "dependencies": {
+    "axios": "^0.18.0",
     "body-parser": "^1.18.2",
     "concurrently": "^3.5.1",
     "dotenv": "^5.0.1",

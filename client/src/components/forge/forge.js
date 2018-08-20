@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import './forge.css';
 import { Link } from "react-router-dom";
 import SocialForums from './../socialforums'
+import Forgeitem from './forgeitem'
 
 const Forge = () => {
     return(
@@ -20,16 +21,7 @@ const Forge = () => {
             <div className='clearfix panelPlate placardText'>
               <h2 className='macondoFont metallicLettering'>David{"'"}s Wares</h2>
               {/*Portfolio Works*/}
-              <div className="col-xs-12 col-sm-6 col-md-4">
-                {/*NYT Article Search*/}
-                <Link to="https://nyt-mern-stack.herokuapp.com/" target="_blank">
-                  <div className='flip'>
-                    <img className='img img-thumbnail' src="./images/nytscreenshot.png" alt="NYT Article Search"/>
-                    <h3 className="appLabels">ReactJS NYT Search</h3>
-                  </div>
-                </Link>
-              </div>
-              <div className='col-xs-12 col-sm-6 col-md-4'>
+              <div className='col-xs-12 col-sm-12 col-md-12'>
                 {/*DateNight*/}
                 <Link to="https://dscherer21.github.io/datenight" target='_blank'>
                   <div className='flip'>
@@ -38,7 +30,8 @@ const Forge = () => {
                   </div>
                 </Link>
               </div>
-              <div className='col-xs-12 col-sm-6 col-md-4'>
+              <Forgeitem/>
+              <div className='col-xs-12 col-sm-12 col-md-12'>
                 {/*Bootstrap Portfolio*/}
                 <Link to="https://dscherer21.github.io/bootstrap-portfolio" target='_blank'>
                   <div className='flip'>
@@ -47,7 +40,7 @@ const Forge = () => {
                   </div>
                 </Link>
               </div>
-              <div className='col-xs-12 col-sm-6 col-md-4'>
+              <div className='col-xs-12 col-sm-12 col-md-12'>
                 {/*DevTech Scraper*/}
                 <Link to="https://devtechscraper.herokuapp.com/" target='_blank'>
                   <div className='flip'>
@@ -56,7 +49,7 @@ const Forge = () => {
                   </div>
                 </Link>
               </div>
-              <div className="col-xs-12 col-sm-6 col-md-4">
+              <div className="col-xs-12 col-sm-12 col-md-12">
                 {/*Hangman Game*/}
                 <Link to="https://dscherer21.github.io/Hangman-Game/" target="_blank">
                   <div className='flip'>
@@ -65,7 +58,7 @@ const Forge = () => {
                   </div>
                 </Link>
               </div>
-              <div className='col-xs-12 col-sm-6 col-md-4'>
+              <div className='col-xs-12 col-sm-12 col-md-12'>
                 {/*RPG Game*/}
                 <Link to="https://dscherer21.github.io/futurama-rpg-game/" target="_blank">
                   <div className='flip'>
@@ -74,7 +67,7 @@ const Forge = () => {
                   </div>
                 </Link>
               </div>
-              <div className='col-xs-12 col-sm-6 col-md-4'>
+              <div className='col-xs-12 col-sm-12 col-md-12'>
                 {/*Trivia Game*/}
                 <Link to="https://dscherer21.github.io/dexter-trivia-game/" target='_blank'>
                   <div className='flip'>
@@ -83,7 +76,7 @@ const Forge = () => {
                   </div>
                 </Link>
               </div>
-              <div className='col-xs-12 col-sm-6 col-md-4'>
+              <div className='col-xs-12 col-sm-12 col-md-12'>
                 {/*Super Hero Gif Widget*/}
                 <Link to="https://dscherer21.github.io/super-hero-gif-search-widget/" target='_blank'>
                   <div className='flip'>
@@ -92,7 +85,7 @@ const Forge = () => {
                   </div>
                 </Link>
               </div>
-              <div className='col-xs-12 col-sm-6 col-md-4'>
+              <div className='col-xs-12 col-sm-12 col-md-12'>
                 {/*Bamazon.js*/}
                 <Link to="https://github.com/dscherer21/bamazon" target='_blank'>
                   <div className='flip'>
@@ -101,7 +94,7 @@ const Forge = () => {
                   </div>
                 </Link>
               </div>
-              <div className='col-xs-12 col-sm-6 col-md-4'>
+              <div className='col-xs-12 col-sm-12 col-md-12'>
                 {/*Heroes Friend Finder*/}
                 <Link to="https://heroesfriendfinder.herokuapp.com/" target='_blank'>
                   <div className='flip'>
