@@ -213,12 +213,12 @@ const Forge = () => {
 
                         <Link to="https://heroesfriendfinder.herokuapp.com/" className='flip col-xs-12 col-sm-12 col-md-4' target="_blank">
                             <img className='img img-thumbnail' src="./images/friendfinderscreenshot.png" alt="Heroes Friend Finder Screenshot"/>
-                            <h3 className="appLabels">BamazonJS</h3>
+                            <h3 className="appLabels">Heroes Friend Finder</h3>
                         </Link>
                         
                         <div className='col-xs-12 col-sm-12 col-md-4'>
                             <h2>Description:</h2>
-                            <p>In this app you will be asked a series of questions. Depending on your answers you will be paired with another person. Your name and answers will stored in the database, and anyone that answeres similarly will be paired with you. There is already 8 people, characters from the hit TV series "Heroes", stored in the database.</p>
+                            <p>In this app, you will be asked a series of questions. Depending on your answers, you will be paired with another person. Your name and answers will be stored in the database, and anyone that answers similarly will be paired with you. There is already 8 people, characters from the hit TV series "Heroes", stored in the database.</p>
                         </div>
                         
                         <div className='col-xs-12 col-sm-12 col-md-4'>
@@ -229,15 +229,6 @@ const Forge = () => {
                     </div>
                 </div>
               </div>
-              {/*
-                {/*Heroes Friend Finder
-                <Link to="https://heroesfriendfinder.herokuapp.com/" target='_blank'>
-                  <div className='flip'>
-                    <img className='img img-thumbnail' src="./images/friendfinderscreenshot.png" alt="Heroes Friend Finder Screenshot"/>
-                    <h3 className="appLabels">Heroes Friend Finder</h3>
-                  </div>
-                </Link>
-              </div>*/}
             </div>
           </div>
         </div>

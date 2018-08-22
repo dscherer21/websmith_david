@@ -21,7 +21,7 @@ class Forgeitem extends Component {
                         
                         <div className='col-xs-12 col-sm-12 col-md-4'>
                             <h2>Description:</h2>
-                            <p>A Full MERN Stack Application that searches for artciles from "The New York Times" Website, allows you store them in a database, and make comments on them.</p>
+                            <p>A Full MERN Stack Application that searches for articles from "The New York Times" Website, allows you to store them in a database, and make comments on them.</p>
                         </div>
                         
                         <div className='col-xs-12 col-sm-12 col-md-4'>
