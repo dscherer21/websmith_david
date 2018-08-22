@@ -8,7 +8,7 @@ const Footer = () => {
         <div className="text-center navbar navbar-relative-bottom">
             <div className="container-fluid">
               <div className='col-xs-12'>
-                <audio controls autoplay='autoplay' loop='loop'>
+                <audio controls loop='loop'>
                   <source src="./../audio/dwarventunnels.mp3" type="audio/mpeg"/>
                   Your browser does not support the audio element.
                 </audio>

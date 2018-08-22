@@ -13,6 +13,11 @@ body {
 	transform: rotateY( 180deg );
 }
 
+.descriptionBorder {
+  vertical-align: middle;
+  border: 1px solid black;
+}
+
 .appLabels {
   margin-top: -15%;
 	padding-bottom: 2%;
