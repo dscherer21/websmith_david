@@ -28,7 +28,7 @@ const Forge = () => {
                     imgSrc={"./images/websmithdavidscreenshot.png"}
                     projectTitle={"Websmith David"}
                     projectDescription={"David's Main Portfolio page."}
-                    technologiesUsed={"HTML5, CSS3, JavaScript, Bootstrap3, ES6, JSX, ReactJS, ExpressJS, NodeJS, Body-Parser, NodeMailer, DOTENV, Concurrently, Nodemon, Axios, React-dom, react-player, react-captcha, react-router-dom, react-scripts, and Google Fonts."}
+                    technologiesUsed={"HTML5, CSS3, JavaScript(ES5 and ES6), Bootstrap3, JSX, ReactJS, ExpressJS, NodeJS, Body-Parser, NodeMailer, DOTENV, Concurrently, Nodemon, Axios, React-dom, react-player, react-captcha, react-router-dom, react-scripts, and Google Fonts."}
                 />
 
                 {/*ReactJS NYT Search*/}
@@ -37,7 +37,7 @@ const Forge = () => {
                     imgSrc={"./images/nytscreenshot.png"}
                     projectTitle={"ReactJS NYT Search"}
                     projectDescription={"A Full MERN Stack Application that searches for articles from The New York Times Website, allows you to store them in a database, and make comments on them."}
-                    technologiesUsed={"HTML5, CSS3, JavaScript, NodeJs, Yarn, ES6, Bootstrap 3, JQuery, ExpressJS, MongoDB, ReactJS, Axios, Body-Parser, Dotenv, Morgan, Mongoose, Mongojs, React-Dom, React-Router-Dom, React-Scripts"}
+                    technologiesUsed={"HTML5, CSS3, JavaScript(ES5 and ES6), NodeJs, Yarn, ES6, Bootstrap 3, JQuery, ExpressJS, MongoDB, ReactJS, Axios, Body-Parser, Dotenv, Morgan, Mongoose, Mongojs, React-Dom, React-Router-Dom, React-Scripts"}
                 />
 
                 {/*Holy Covenant UMC*/}
