@@ -1,6 +1,5 @@
-import React, { Component } from "react";
+import React from "react";
 import './raven.css';
-import { Link } from "react-router-dom";
 import SocialForums from './../socialforums';
 import EmailForm from './../emailform';
 

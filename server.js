@@ -2,6 +2,7 @@ const express = require("express");
 const bodyParser = require("body-parser");
 const app = express();
 const nodemailer = require('nodemailer');
+const projects = require("./database.json");
 require('dotenv').config();
 const PORT = process.env.PORT || 3001;
 
@@ -12,19 +13,27 @@ app.use(bodyParser.json());
 app.use(express.static("client/build"));
 // Add routes, both API and view
 
-app.get('/', function(req, res) {
+//Get request for my landing page
+app.get('/', (req, res) => {
   res.json(JSON.parse(response.body));
 })
 
-app.get('/forge', function(req, res) {
+//Get request for my Forge page
+app.get('/forge', (req, res) => {
   res.json(JSON.parse(response.body));
 })
 
-app.get('/raven', function(req, res) {
+app.get('/raven', (req, res) => {
   res.json(JSON.parse(response.body));
 })
 
-app.post('/send', function(req, res) {
+//Initializes My API to be called via Axios
+app.get("/api/projects", (req, res) => {
+  res.json(projects);
+});
+
+//Initializes a send request using NodeMailer from my Mailer account to called via Axios
+app.post('/send', (req, res) => {
   
   console.log(req.body);
   const html =

@@ -1,7 +1,6 @@
-import React, { Component } from "react";
+import React from "react";
 import './emailform.css';
 import Recaptcha from 'react-recaptcha';
-import { Link } from "react-router-dom";
 import axios from 'axios'
 
 class EmailForm extends React.Component {
