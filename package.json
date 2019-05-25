@@ -28,11 +28,11 @@
   "homepage": "https://github.com/dscherer21/websmith_david#readme",
   "dependencies": {
     "axios": "^0.18.0",
-    "body-parser": "^1.18.2",
+    "body-parser": "^1.19.0",
     "concurrently": "^3.5.1",
     "dotenv": "^5.0.1",
-    "express": "^4.16.3",
+    "express": "^4.17.0",
     "nodemailer": "^4.6.4",
-    "nodemon": "^1.18.11"
+    "nodemon": "^1.19.0"
   }
 }
