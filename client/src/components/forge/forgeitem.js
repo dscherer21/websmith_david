@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import './forge.css';
-import { Link } from "react-router-dom";
+//import { Link } from "react-router-dom";
 
 class Forgeitem extends Component {
 
@@ -10,10 +10,10 @@ class Forgeitem extends Component {
             <div className="col-xs-12 col-sm-12 col-md-12">
                 <div className='container quote'>
                     <div className='row'>
-                        <Link to={this.props.projectLink} className='flip col-xs-12 col-sm-12 col-md-4' target="_blank">
+                        <a href={this.props.projectLink} className='flip col-xs-12 col-sm-12 col-md-4' target="_blank">
                             <img className='img img-thumbnail' src={this.props.imgSrc} alt={this.props.projectTitle}/>
                             <h3 className="appLabels">{this.props.projectTitle}</h3>
-                        </Link>
+                        </a>
                         
                         <div className='col-xs-12 col-sm-12 col-md-4'>
                             <h2>Description:</h2>
