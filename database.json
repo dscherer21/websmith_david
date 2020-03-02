@@ -9,6 +9,14 @@
         },
 
         {
+            "title":"City Seedlings Preschool",
+            "link": "https://www.cityseedlingspreschool.com/",
+            "imageLink": "./images/cityseedlingspreschool.png",
+            "projectDescription": "David helped a client to build their website for their business using Squarespace. David also consulted with the client and gave ideas on how to expand upon their site.",
+            "technologiesUsed": "SquareSpace"
+        },
+
+        {
             "title":"ReactJS NYT Search",
             "link": "https://nyt-mern-stack.herokuapp.com/",
             "imageLink": "./images/nytscreenshot.png",
