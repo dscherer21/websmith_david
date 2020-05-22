@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import './forge.css';
-//import { Link } from "react-router-dom";
 
 class Forgeitem extends Component {
 

@@ -9,6 +9,14 @@
         },
 
         {
+            "title":"David's Pokédex",
+            "link": "https://davids-pokedex.herokuapp.com/",
+            "imageLink": "./images/davidspokedex.png",
+            "projectDescription": "A Pokedex application where you can search for Pokemon using different parameters. David's first app that utilizes Jest and Unit Testing.",
+            "technologiesUsed": "HTML5, CSS3, ES6, NodeJs, ExpressJS, ReactJS, React Hooks, JSX, DOTENV, Body-Parser, Bootstrap 4, Axios, Jest, Enzyme, Unit Testing, VSCode, Git and Github, and Heroku"
+        },
+
+        {
             "title":"Fullmetal Alchemist Stopwatch",
             "link": "https://fma-stopwatch.herokuapp.com/",
             "imageLink": "./images/fmastopwatchscreenshot.png",

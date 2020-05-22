@@ -4,23 +4,18 @@ import SocialForums from './../socialforums'
 import Forgeitem from './forgeitem'
 import axios from 'axios'
 
-
-
-
-
-//const Forge = () => {
 class Forge extends React.Component {
   constructor(props) {
     super(props);
-      this.state = {
-        projects: []
-      }
-    };
+    this.state = {
+      projects: []
+    }
+  };
   
   componentDidMount(){
     axios.get('/api/projects')
     .then((response) => {
-      console.log(response);
+      //console.log(response);
       const data = Array.from(response.data.projects);
       this.setState({
         projects: data

@@ -14,9 +14,17 @@ class App extends Component {
         <div className="App text-center">
           <Header/>
           <Switch>
-            <Route exact path='/' component={StoreFront}/>
-            <Route path='/forge' component={Forge}/>
-            <Route path='/raven' component={Raven}/>
+            <Route exact path='/'>
+              <StoreFront />
+            </Route>
+
+            <Route path='/forge'>
+              <Forge />
+            </Route>
+
+            <Route path='/raven'>
+              <Raven />
+            </Route>
           </Switch>
           <Footer/>
         </div>
