@@ -7,6 +7,7 @@ body {
   transform-style: preserve-3d;
 	transition: all 1s ease;
   margin: 7% 0;
+  padding: 0;
 }
 
 .flip:hover {
