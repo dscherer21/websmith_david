@@ -9,11 +9,19 @@
         },
 
         {
+            "title":"Dragon Ball Quiz",
+            "link": "https://dragon-ball-quiz.herokuapp.com/",
+            "imageLink": "./images/dragonballquiz.png",
+            "projectDescription": "A Quiz Application that tests the user's knowledge of the Dragon Ball franchise, and compares their results to a character from the show.",
+            "technologiesUsed": "HTML5, CSS3, JavaScript (ES6), JSX, NodeJS, ExpressJS, Body-Parser, ReactJS, React Hooks, Sass, Jest, Enzyme, Google Fonts, VSCode, and Heroku."
+        },
+
+        {
             "title":"David's Pokédex",
             "link": "https://davids-pokedex.herokuapp.com/",
             "imageLink": "./images/davidspokedex.png",
             "projectDescription": "A Pokedex application where you can search for Pokemon using different parameters. David's first app that utilizes Jest and Unit Testing.",
-            "technologiesUsed": "HTML5, CSS3, ES6, NodeJs, ExpressJS, ReactJS, React Hooks, JSX, DOTENV, Body-Parser, Bootstrap 4, Axios, Jest, Enzyme, Unit Testing, VSCode, Git and Github, and Heroku"
+            "technologiesUsed": "HTML5, CSS3, ES6, NodeJs, ExpressJS, ReactJS, React Hooks, JSX, DOTENV, Body-Parser, Bootstrap 4, Axios, Jest, Enzyme, Unit Testing, VSCode, Git and Github, and Heroku."
         },
 
         {
