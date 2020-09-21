@@ -33,7 +33,7 @@ const StoreFront = () => {
               <h2 className='macondoFont'>About David</h2>
               <p>David lives deep within the Magical Steel Forest of Chicago, IL. When he is not forging the deadliest of Webpages, David likes to spend his leisure time watching movies (he prefers action/adventure, sci-fi, and fantasy), TV shows (he is into anime, and enjoys good comedies like Scrubs, Family Guy, and How I Met Your Mother), video games (he used to play World of Warcraft, loves the Legend of Zelda series, and other games as well.), Trading Card Games(primarily Magic: The Gathering), building gaming rigs, and spending time with his wife. David has a wide variety of musical tastes, ranging from rock and hiphop to country and classical. David is very easy-going and has a goofy sense of humor. David will do his best to meet your Websmithing needs!</p>
               <hr/>
-              <p>If You would like to view a more traditional webpage layout, please click ==> <a href='https://dscherer21.github.io/bootstrap-portfolio' target='_blank' rel="noopener noreferrer"><strong>HERE</strong></a>.</p>
+              <p>If You would like to view a more traditional webpage layout, please click ==&gt <a href='https://dscherer21.github.io/bootstrap-portfolio' target='_blank' rel="noopener noreferrer"><strong>HERE</strong></a>.</p>
             </div>
           </div>
         </div>
