@@ -57,14 +57,6 @@
         },
 
         {
-            "title":"DateNight",
-            "link": "https://dscherer21.github.io/datenight",
-            "imageLink": "./images/app-image.png",
-            "projectDescription": "This app is intended to help you easily plan your next night out at the movies. DateNight streamlines the process of planning your date by combining 2 processes into 1; picking a movie, theater and showtime and also a restaurant to grab a bite to eat before or after the movie.",
-            "technologiesUsed": "HTML5, CSS3, Bootstrap 3, International Showtimes API, Google Maps, Places and Geocodes API, ES5, jQuery, Git and Github, and VSCode."
-        },
-
-        {
             "title":"Bootstrap Portfolio",
             "link": "https://dscherer21.github.io/bootstrap-portfolio",
             "imageLink": "./images/bootstrapportfolioscreenshot.png",
