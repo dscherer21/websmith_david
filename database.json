@@ -1,10 +1,18 @@
 {
    "projects": [
+        
+        {
+            "title":"Web Ninja David",
+            "link": "https://www.web-ninja-david.com/",
+            "imageLink": "./images/webNinjaDavidScreenshot.png",
+            "projectDescription": "David's Main Portfolio page. Deployed to AWS.",
+            "technologiesUsed": "HTML5, CSS3, ES6, Bootstrap3, JSX, ReactJS, NodeJS, Body-Parser, DOTENV, Axios, React-dom, react-captcha, self-made API, react-router-dom, react-scripts, AWS, Git and Github, VSCode, and Google Fonts."
+        },
         {
             "title":"Websmith David",
             "link": "https://websmith-david.herokuapp.com/",
             "imageLink": "./images/websmithdavidscreenshot.png",
-            "projectDescription": "David's Main Portfolio page.",
+            "projectDescription": "David's secondary portfolio page.",
             "technologiesUsed": "HTML5, CSS3, ES6, Bootstrap3, JSX, ReactJS, ExpressJS, NodeJS, Body-Parser, NodeMailer, DOTENV, Concurrently, Nodemon, Axios, React-dom, react-player, react-captcha, self-made API, react-router-dom, react-scripts, Heroku, Git and Github, VSCode and Atom, and Google Fonts."
         },
 
